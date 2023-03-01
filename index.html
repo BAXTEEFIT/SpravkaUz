@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpravUz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <img src="img/logo.svg" class="header-logo" alt="">
+            <ul class="header-content-languages">
+                <li>
+                    <a class="header-content-languages__language active" data-id="rus">Ру</a>
+                </li>
+                <li>
+                    <a class="header-content-languages__language" data-id="eng">En</a>
+                </li>
+                <li>
+                    <a class="header-content-languages__language" data-id="uzb">O‘z</a>
+                </li>
+            </ul>
+            <div class="select-languages">
+                <select name="languages" class="">
+                    <option value="1">Ру</option>
+                    <option value="2">En</option>
+                    <option value="3">O‘z</option>
+                </select>
+            </div>
+        </div>
+        <div class="container header-nav">
+            <burger class="burger">
+                <img src="img/burger.svg" alt="">
+            </burger>
+            <form action="URL" class="header-nav-form">
+                <div class="header-nav-form__select">
+                    <select name="cityName" class="city">
+                        <option value="1">Ташкент</option>
+                        <option value="2">Самарканд</option>
+                        <option value="3">Джиззак</option>
+                    </select>
+                </div>
+                <textarea placeholder="Поиск" ></textarea>
+            </form>
+        </div>
+    </header>
+
+    <main class="container main">
+        <div class="main-content">
+            <div class="main-content-text">
+                <h1 class="main-content__title"><span>A-STORE.UZ</span> фирменный магазин</h1>
+                <p>
+                    Контактные данные компании «GOODZONE МАГАЗИН БЫТОВОЙ ТЕХНИКИ И ЭЛЕКТРОНИКИ» — телефоны, местонахождение, режим работы, виды деятельности и другая полезная информация. Пожалуйста, сообщите огранизации, что вы нашли их контакты на сайте Справочник Ташкента — Sprav.uz.
+                </p>
+            </div>
+            <div class="main-card">
+                <div class="main-card-content">
+                    <div class="main-card-content__img">
+                        <img src="../img/cardImg.svg" alt="">
+                        <div class="main-card-content__img-text">
+                            <p>XIAOMI</p>
+                            <p>с 2022 года</p>
+                        </div>
+                    </div>
+                    <div class="map-content">
+                        <div class="map-content-items">
+                            <select>
+                                <option value="branche" class="map-content-items__item">Филиалы</option>
+                            </select>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95911.10144272358!2d69.20027640270565!3d41.30403563251374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b5bce247eb3%3A0x7e8c159c995773ea!2zTm91dC51eiAtINCc0LDQs9Cw0LfQuNC9INCd0L7Rg9GC0LHRg9C60L7QsiBOMQ!5e0!3m2!1sru!2s!4v1677644281160!5m2!1sru!2s" width="170" height="120" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-card-info">
+                    <div class="main-card-info__item">
+                        <img src="/img/locationIcon.svg" alt="">
+                        <h3>Ташкент, Шайхантахурский р-н, пр-т Амира Темура, 129Б</h3>
+                    </div>
+                    <div class="main-card-info__item">
+                        <img src="/img/pintIcon.svg" alt="">
+                        <p>I MAXI супермаркет, ЮНУСАБАДСКИЙ РАЙОННЫЙ СУД ПО УГОЛОВНЫМ ДЕЛАМ</p>
+                    </div>
+                    <div class="main-contact-content">
+                        <div class="main-contact-content-links">
+                            <div class="main-contact-content__phone">
+                                <img src="img/phoneIcon.svg" alt="">
+                            </div>
+                            <a href="" class="main-contact-content-links__link">
+                                <h4>+998 71 207-XX-XX</h4>
+                                Показать номер
+                            </a>
+                        </div>
+                        <div class="main-contact-cards">
+                            <div class="main-contact-cards__card">
+                                <p><img src="img/clockIcon.svg" alt="">Сегодня</p>
+                                <p>с 10 до 21</p>
+                            </div>
+                            <div class="main-contact-cards__card">
+                                <p>Перерыв</p>
+                                <p>без перерыва</p>
+                            </div>
+                        </div>
+                        <div class="main-contact-cards">
+                            <a href="" class="main-contact-cards__link">
+                                <img src="img/netIcon.svg" alt="">
+                                goodzone.uz
+                            </a>
+                            <a href="" class="main-contact-cards__link">
+                                <img src="img/mailIcon.svg" alt="">
+                                Показать e-mail
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <p>Различное профессиональное музыкальное оборудование. Бесплатная доставка музыкальных инструментов и платная – аксессуаров, таких как струны, подставки и т.д. в пределах города Ташкента.</p>
+            </div>
+            <div class="main-info">
+                <article class="about">
+                    <!-- btn container -->
+                    <div class="tab-btns">
+                      <button class="tab-btn active" data-id="information">Информация</button>
+                      <button class="tab-btn" data-id="gallery">Фотогалерея</button>
+                      <button class="tab-btn" data-id="graph">График работы</button>
+                      <button class="tab-btn" data-id="activity">Виды деятельности</button>
+                    </div>
+                    <div class="tabs-content">
+                      <!-- single item -->
+                      <div class="content active" id="information">
+                        <h4>Информация</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam a exercitationem! Assumenda fuga omnis autem. Fuga, id, nam, repellat deleniti aspernatur quaerat expedita minus aliquid blanditiis accusantium reprehenderit ipsum.
+                        </p>
+                      </div>
+                      <!-- end of single item -->
+                      <!-- single item -->
+                      <div class="content" id="gallery">
+                        <h4>Фотогалерея</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam a exercitationem! Assumenda fuga omnis autem. Fuga, id, nam, repellat deleniti aspernatur quaerat expedita minus aliquid blanditiis accusantium reprehenderit ipsum.
+                        </p>
+                      </div>
+                      <!-- end of single item -->
+                      <!-- single item -->
+                      <div class="content" id="graph">
+                        <h4>График работы</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam a exercitationem! Assumenda fuga omnis autem. Fuga, id, nam, repellat deleniti aspernatur quaerat expedita minus aliquid blanditiis accusantium reprehenderit ipsum.
+                        </p>
+                      </div>
+                      <!-- end of single item -->
+                      <!-- single item -->
+                      <div class="content" id="activity">
+                        <h4>Виды деятельности</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam a exercitationem! Assumenda fuga omnis autem. Fuga, id, nam, repellat deleniti aspernatur quaerat expedita minus aliquid blanditiis accusantium reprehenderit ipsum.
+                        </p>
+                      </div>
+                      <!-- end of single item -->
+                    </div>
+                  </article>
+            </div>
+        </div>
+        <div class="main-ads">
+
+        </div>
+    </main>
+
+    <footer class="container footer">
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
