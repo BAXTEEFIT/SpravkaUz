@@ -220,6 +220,10 @@ span {
     justify-content: space-between;
     gap: 30px;
 }
+.main-card-content__img img {
+    height: 120px;
+    width: 170px;
+}
 .main-card-content__img-text {
     display: flex;
     flex-direction: column;
